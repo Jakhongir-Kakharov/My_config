@@ -1,4 +1,4 @@
-g# Install & Customizing The Fish Shell
+# Install & Customizing The Fish Shell
 
 # Update Repo's
 sudo apt update
@@ -67,7 +67,6 @@ sudo apt install gnome-tweak-tool
 sudo apt-add-repository ppa:brightbox/ruby-ng
 sudo apt-get update
 sudo apt-get install curl ruby2.5 ruby2.5-dev gcc make g++ libffi-dev
-curl -sL https://deb.nodesource.com/setup 8.х | sudo -Е bash -
 
 # Using Ubuntu ikkita buyruqni birga berish kk
 curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - 
