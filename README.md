@@ -91,3 +91,42 @@ npm uninstall gulp -g
 
 npm install gulp-cli -g
 npm install gulp@3.9.1
+
+#shell
+https://extensions.gnome.org/extension/3210/compiz-windows-effect/
+
+https://extensions.gnome.org/extension/19/user-themes/
+
+
+#NEOVIM
+
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+
+sudo apt install code-insiders --classic
+
+nvim
+
+:PlugInstall
+:PlugUpdate
+:TSUpdate
+:TSInstall all
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
