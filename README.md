@@ -59,12 +59,12 @@ git clone
 # Neovim
 sudo add-apt-repository ppa:neovim-ppa/unstable
 sudo apt-get update
-sudo apt-get install neovim
+sudo apt-get install neovim -y
 
 #tweaks
 sudo apt-add-repository universe
 sudo apt install gnome-shell=3.36.4-1ubuntu1~20.04.2 gnome-shell-common=3.36.4-1ubuntu1~20.04.2 gnome-shell-extension-prefs=3.36.4-1ubuntu1~20.04.2
-sudo apt install gnome-tweak-tool
+sudo apt install gnome-tweak-tool -y
 
 # Node.js (LTS), Gulp, Ruby va Jekyllni Windows 10/Ubuntu/Mint da o'rnatish:
 sudo apt-add-repository ppa:brightbox/ruby-ng
@@ -105,7 +105,8 @@ https://extensions.gnome.org/extension/19/user-themes/
 
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
-sudo apt install code-insiders --classic
+# Install VScode
+sudo snap install code-insiders --classic
 
 
 # .local 
@@ -121,13 +122,28 @@ omf list
 :PlugUpdate
 :TSUpdate
 :TSInstall all
+:UpdateRemotePlugins
 
 # install telegram
 sudo snap install telegram-desktop --edge
 
 
 # install tmux
-sudo snap install tmux
+sudo apt install tmux
+
+
+# Install vlc
+sudo apt install vlc
+
+# Install ranger
+sudo apt install ranger
+
+# pip
+sudo apt install python3-pip -y
+
+# Install ueberzug
+sudo apt install libx11-dev libxtst-dev python3-docopt python3-xlib python3-pil python3-attr
+pip3 install ueberzug
 
 
 
