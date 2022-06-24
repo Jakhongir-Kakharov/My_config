@@ -23,6 +23,9 @@ sudo apt install git
 # Install powerline fonts
 sudo apt install fonts-powerline
 
+# Install plank
+sudo apt install plank
+
 # Install omf
 curl -L https://get.oh-my.fish | fish
 
@@ -104,20 +107,26 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 
 sudo apt install code-insiders --classic
 
+
+# .local 
+chmod -R 777 .local
+
+
 nvim
+fisher list
+omf list
 
 :PlugInstall
 :PlugUpdate
 :TSUpdate
 :TSInstall all
 
+# install telegram
+sudo snap install telegram-desktop --edge
 
 
-
-
-
-
-
+# install tmux
+sudo snap install tmux
 
 
 
