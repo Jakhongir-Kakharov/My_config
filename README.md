@@ -57,7 +57,7 @@ sudo apt install tilda
 git clone 
 
 # Neovim
-sudo add-apt-repository ppa:neovim-ppa/stable
+sudo add-apt-repository ppa:neovim-ppa/unstable
 sudo apt-get update
 sudo apt-get install neovim
 
@@ -110,6 +110,7 @@ sudo apt install code-insiders --classic
 
 # .local 
 chmod -R 777 .local
+
 
 
 nvim
