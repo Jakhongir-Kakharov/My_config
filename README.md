@@ -4,7 +4,7 @@
 sudo apt update
 
 # Install Fish
-sudo apt install fish
+sudo apt install fish -y
 
 # Run Fish Shell
 fish
@@ -24,13 +24,10 @@ sudo apt install git
 sudo apt install fonts-powerline
 
 # Install plank
-sudo apt install plank
+sudo apt install plank -y
 
 # Install omf
 curl -L https://get.oh-my.fish | fish
-
-# Set Fish Shell
-chsh -s /usr/bin/fish
 
 # Install Fisher
 curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
@@ -51,7 +48,7 @@ sudo apt-get install ./exa_0.9.0-4_amd64.deb
 sudo apt install peco
 
 # Install Tilda terminal
-sudo apt install tilda
+sudo apt install tilda -y
 
 # Git clone
 git clone 
@@ -112,12 +109,11 @@ sudo snap install code-insiders --classic
 # .local 
 chmod -R 777 .local
 
-
-
-nvim
 fisher list
 omf list
+omf install agnoster
 
+nvim
 :PlugInstall
 :PlugUpdate
 :TSUpdate
@@ -129,23 +125,28 @@ sudo snap install telegram-desktop --edge
 
 
 # install tmux
-sudo apt install tmux
+sudo apt install tmux -y
 
 
 # Install vlc
-sudo apt install vlc
+sudo apt install vlc -y
 
 # Install ranger
-sudo apt install ranger
+sudo apt install ranger -y
 
 # pip
 sudo apt install python3-pip -y
 
 # Install ueberzug
 sudo apt install libx11-dev libxtst-dev python3-docopt python3-xlib python3-pil python3-attr
-pip3 install ueberzug
+pip3 install ueberzug -y
 
+# Set Fish Shell
+chsh -s /usr/bin/fish
 
+#z error
+fisher remove jethrokuan/z
+fisher install jethrokuan/z
 
 
 
