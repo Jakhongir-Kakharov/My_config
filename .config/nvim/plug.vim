@@ -32,6 +32,7 @@ endif
 
 Plug 'groenewege/vim-less', { 'for': 'less' }
 Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
+plug 'mattn/emmet-vim'
 
 call plug#end()
 
